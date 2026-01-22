@@ -61,233 +61,233 @@ Comprender e implementar los diferentes tipos de relaciones entre clases: Depend
 ### Ejercicio 1
 **Enunciado**: Crea una clase `Estudiante` y una clase `Profesor`. Un `Profesor` puede calificar a múltiples `Estudiante`, pero un `Estudiante` solo puede ser calificado por un `Profesor`. Identifica el tipo de relación y la cardinalidad. Implementa el código en C++.
 
-**Tipo de relación**: _______________
-**Cardinalidad**: _______________
-**Navegabilidad**: _______________
+**Tipo de relación**: ___agrgación____________
+**Cardinalidad**: ____1..*___________
+**Navegabilidad**: ______bidireccional_________
 
 ---
 
 ### Ejercicio 2
 **Enunciado**: Implementa una clase `Biblioteca` que contiene múltiples `Libro`. Los libros pueden existir fuera de la biblioteca. Identifica el tipo de relación y la cardinalidad.
 
-**Tipo de relación**: _______________
-**Cardinalidad**: _______________
+**Tipo de relación**: ___agegación____________
+**Cardinalidad**: _______1..*________
 
 ---
 
 ### Ejercicio 3
 **Enunciado**: Crea una clase `Casa` que tiene múltiples `Habitacion`. Las habitaciones no pueden existir sin la casa. Identifica el tipo de relación y la cardinalidad.
 
-**Tipo de relación**: _______________
-**Cardinalidad**: _______________
+**Tipo de relación**: ______Composicion_________
+**Cardinalidad**: ________1..*_______
 
 ---
 
 ### Ejercicio 4
 **Enunciado**: Implementa una clase `Calculadora` que usa una clase `Operacion` solo como parámetro en un método. La `Calculadora` no mantiene referencia a `Operacion`. Identifica el tipo de relación.
 
-**Tipo de relación**: _______________
+**Tipo de relación**: _____Dependencia__________
 
 ---
 
 ### Ejercicio 5
 **Enunciado**: Crea una clase `Universidad` que tiene múltiples `Departamento`. Los departamentos pueden existir independientemente de la universidad. Implementa con cardinalidad 1..*.
 
-**Tipo de relación**: _______________
-**Cardinalidad**: _______________
+**Tipo de relación**: ______Asociacion_________
+**Cardinalidad**: ____1..*___________
 
 ---
 
 ### Ejercicio 6
 **Enunciado**: Implementa una clase `Automovil` que tiene exactamente 4 `Rueda`. Las ruedas no pueden existir sin el automóvil. Identifica el tipo de relación y la cardinalidad.
 
-**Tipo de relación**: _______________
-**Cardinalidad**: _______________
+**Tipo de relación**: ____composicion___________
+**Cardinalidad**: ___n____________
 
 ---
 
 ### Ejercicio 7
 **Enunciado**: Crea una clase `EditorTexto` que usa una clase `Impresora` solo para imprimir documentos. El `EditorTexto` no mantiene referencia permanente a `Impresora`. Identifica el tipo de relación.
 
-**Tipo de relación**: _______________
+**Tipo de relación**: ______dependencia_________
 
 ---
 
 ### Ejercicio 8
 **Enunciado**: Implementa una clase `Empresa` que tiene múltiples `Empleado`. Los empleados pueden trabajar en diferentes empresas a lo largo del tiempo. Identifica el tipo de relación y la cardinalidad.
 
-**Tipo de relación**: _______________
-**Cardinalidad**: _______________
+**Tipo de relación**: _______agregacion________
+**Cardinalidad**: ______1..*_________
 
 ---
 
 ### Ejercicio 9
 **Enunciado**: Crea una clase `Computadora` que tiene un `Procesador`, una `MemoriaRAM` y múltiples `DiscoDuro`. Estos componentes no pueden existir sin la computadora. Identifica el tipo de relación.
 
-**Tipo de relación**: _______________
+**Tipo de relación**: _______composicion________
 
 ---
 
 ### Ejercicio 10
 **Enunciado**: Implementa una clase `Restaurante` que tiene múltiples `Mesa`. Las mesas pueden existir fuera del restaurante. Implementa con cardinalidad 0..*.
 
-**Tipo de relación**: _______________
-**Cardinalidad**: _______________
+**Tipo de relación**: ___agregacion____________
+**Cardinalidad**: ______1..*_________
 
 ---
 
 ### Ejercicio 11
 **Enunciado**: Crea una clase `Persona` y una clase `Direccion`. Una persona puede tener una dirección, pero la dirección puede existir sin la persona. Identifica el tipo de relación y la cardinalidad.
 
-**Tipo de relación**: _______________
-**Cardinalidad**: _______________
+**Tipo de relación**: ______dependencia_________
+**Cardinalidad**: _______n________
 
 ---
 
 ### Ejercicio 12
 **Enunciado**: Implementa una clase `Telefono` que tiene una `Pantalla`. La pantalla no puede existir sin el teléfono. Identifica el tipo de relación.
 
-**Tipo de relación**: _______________
+**Tipo de relación**: ____composicion___________
 
 ---
 
 ### Ejercicio 13
 **Enunciado**: Crea una clase `Banco` que tiene múltiples `CuentaBancaria`. Las cuentas bancarias no pueden existir sin el banco. Identifica el tipo de relación y la cardinalidad.
 
-**Tipo de relación**: _______________
-**Cardinalidad**: _______________
+**Tipo de relación**: ___composicion____________
+**Cardinalidad**: ___1..*____________
 
 ---
 
 ### Ejercicio 14
 **Enunciado**: Implementa una clase `Reportero` que usa una clase `Camara` solo para tomar fotografías. El reportero no mantiene la cámara permanentemente. Identifica el tipo de relación.
 
-**Tipo de relación**: _______________
+**Tipo de relación**: ____dependencia___________
 
 ---
 
 ### Ejercicio 15
 **Enunciado**: Crea una clase `Hospital` que tiene múltiples `Doctor`. Los doctores pueden trabajar en diferentes hospitales. Identifica el tipo de relación y la cardinalidad.
 
-**Tipo de relación**: _______________
-**Cardinalidad**: _______________
+**Tipo de relación**: _____agregacion__________
+**Cardinalidad**: _______1..*________
 
 ---
 
 ### Ejercicio 16
 **Enunciado**: Implementa una clase `Avion` que tiene múltiples `Motor`. Los motores no pueden existir sin el avión. Identifica el tipo de relación y la cardinalidad.
 
-**Tipo de relación**: _______________
-**Cardinalidad**: _______________
+**Tipo de relación**: ___composicion____________
+**Cardinalidad**: _______n________
 
 ---
 
 ### Ejercicio 17
 **Enunciado**: Crea una clase `Estudiante` y una clase `Curso`. Un estudiante puede estar inscrito en múltiples cursos, y un curso puede tener múltiples estudiantes. Identifica el tipo de relación y la cardinalidad.
 
-**Tipo de relación**: _______________
-**Cardinalidad**: _______________
+**Tipo de relación**: __asociacion_____________
+**Cardinalidad**: ______0..*_________
 
 ---
 
 ### Ejercicio 18
 **Enunciado**: Implementa una clase `Documento` que tiene múltiples `Pagina`. Las páginas no pueden existir sin el documento. Identifica el tipo de relación y la cardinalidad.
 
-**Tipo de relación**: _______________
-**Cardinalidad**: _______________
+**Tipo de relación**: ________composicion_______
+**Cardinalidad**: _____1..*__________
 
 ---
 
 ### Ejercicio 19
 **Enunciado**: Crea una clase `Tienda` que tiene múltiples `Producto`. Los productos pueden existir fuera de la tienda. Implementa con cardinalidad 1..*.
 
-**Tipo de relación**: _______________
-**Cardinalidad**: _______________
+**Tipo de relación**: ____agregacion___________
+**Cardinalidad**: ___1..*____________
 
 ---
 
 ### Ejercicio 20
 **Enunciado**: Implementa una clase `Cocinero` que usa una clase `Receta` solo para cocinar. El cocinero no mantiene referencia permanente a la receta. Identifica el tipo de relación.
 
-**Tipo de relación**: _______________
+**Tipo de relación**: ____dependencia___________
 
 ---
 
 ### Ejercicio 21
 **Enunciado**: Crea una clase `Escuela` que tiene múltiples `Aula`. Las aulas no pueden existir sin la escuela. Identifica el tipo de relación y la cardinalidad.
 
-**Tipo de relación**: _______________
-**Cardinalidad**: _______________
+**Tipo de relación**: ___composicion____________
+**Cardinalidad**: _____1..*__________
 
 ---
 
 ### Ejercicio 22
 **Enunciado**: Implementa una clase `Cliente` y una clase `Pedido`. Un cliente puede hacer múltiples pedidos, pero un pedido pertenece a un solo cliente. Identifica el tipo de relación y la cardinalidad.
 
-**Tipo de relación**: _______________
-**Cardinalidad**: _______________
+**Tipo de relación**: __asociacion_____________
+**Cardinalidad**: ____1..*___________
 
 ---
 
 ### Ejercicio 23
 **Enunciado**: Crea una clase `Celular` que tiene una `Bateria`. La batería no puede existir sin el celular. Identifica el tipo de relación.
 
-**Tipo de relación**: _______________
+**Tipo de relación**: _____composicion__________
 
 ---
 
 ### Ejercicio 24
 **Enunciado**: Implementa una clase `Bibliotecario` que usa una clase `Catalogo` solo para buscar libros. El bibliotecario no mantiene referencia permanente al catálogo. Identifica el tipo de relación.
 
-**Tipo de relación**: _______________
+**Tipo de relación**: ___dependencia____________
 
 ---
 
 ### Ejercicio 25
 **Enunciado**: Crea una clase `Ciudad` que tiene múltiples `Edificio`. Los edificios pueden existir independientemente de la ciudad. Identifica el tipo de relación y la cardinalidad.
 
-**Tipo de relación**: _______________
-**Cardinalidad**: _______________
+**Tipo de relación**: ___agrgacion____________
+**Cardinalidad**: _____1..*__________
 
 ---
 
 ### Ejercicio 26
 **Enunciado**: Implementa una clase `Bicicleta` que tiene exactamente 2 `Rueda`. Las ruedas no pueden existir sin la bicicleta. Identifica el tipo de relación y la cardinalidad.
 
-**Tipo de relación**: _______________
-**Cardinalidad**: _______________
+**Tipo de relación**: _______composicion________
+**Cardinalidad**: _________n______
 
 ---
 
 ### Ejercicio 27
 **Enunciado**: Crea una clase `Museo` que tiene múltiples `ObraArte`. Las obras de arte pueden existir fuera del museo. Identifica el tipo de relación y la cardinalidad.
 
-**Tipo de relación**: _______________
-**Cardinalidad**: _______________
+**Tipo de relación**: ____agregacion___________
+**Cardinalidad**: ____1..*___________
 
 ---
 
 ### Ejercicio 28
 **Enunciado**: Implementa una clase `Programador` que usa una clase `IDE` solo para escribir código. El programador no mantiene referencia permanente al IDE. Identifica el tipo de relación.
 
-**Tipo de relación**: _______________
+**Tipo de relación**: ____dependencia___________
 
 ---
 
 ### Ejercicio 29
 **Enunciado**: Crea una clase `Hotel` que tiene múltiples `Habitacion`. Las habitaciones no pueden existir sin el hotel. Identifica el tipo de relación y la cardinalidad.
 
-**Tipo de relación**: _______________
-**Cardinalidad**: _______________
+**Tipo de relación**: ____composicion___________
+**Cardinalidad**: ____1..*___________
 
 ---
 
 ### Ejercicio 30
 **Enunciado**: Implementa una clase `Orquesta` que tiene múltiples `Musico`. Los músicos pueden tocar en diferentes orquestas. Identifica el tipo de relación y la cardinalidad. Implementa con navegabilidad bidireccional.
 
-**Tipo de relación**: _______________
-**Cardinalidad**: _______________
-**Navegabilidad**: _______________
+**Tipo de relación**: ___agregacion____________
+**Cardinalidad**: __________1..*_____
+**Navegabilidad**: ____bidireccional___________
 
 ---
 
